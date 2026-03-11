@@ -51,7 +51,7 @@ while True:
             print("You need to be at least Level {} to move to the next stage.".format(stage * 2))
 
     elif choice == "3": # Display the player's current level, EXP, and stage
-        print(f"Level: {level}, EXP: {exp}, Stage: {stage}")
+        print(f"Level: {level}, EXP: {exp}, Stage: {stage} Health: {player_health}")
 
     elif choice == "4": # Boss fight available every 3 stages
         print("You encounter a powerful boss!")
